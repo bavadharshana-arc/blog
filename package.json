@@ -1,0 +1,19 @@
+{
+  "name": "blog-platform",
+  "version": "1.0.0",
+  "description": "Full-stack Blog Platform with Comments built with React, Node.js, Express, and MongoDB",
+  "scripts": {
+    "install:server": "npm --prefix server install",
+    "install:client": "npm --prefix client install",
+    "install:all": "npm run install:server && npm run install:client",
+    "server": "npm --prefix server start",
+    "server:dev": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "client:build": "npm --prefix client run build",
+    "seed": "npm --prefix server run seed",
+    "test": "npm --prefix server test"
+  },
+  "keywords": ["react", "express", "mongodb", "jwt", "blog"],
+  "author": "",
+  "license": "ISC"
+}
